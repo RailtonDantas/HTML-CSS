@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando hover</title>
+    <style>
+        div{
+            width: 200px;
+        }
+        div:hover{
+            color: red;
+        }
+        div > p{
+            font-size: 5em;
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            font-weight: bolder;
+            color: aqua;
+            background-color: black;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de hover</h1>
+    <p>passei o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <p>VA TOMA NO CU</p>
+    </div>
+</body>
+</html>

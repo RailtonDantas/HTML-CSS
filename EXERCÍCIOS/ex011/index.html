@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Tente abrir esse site em vários dispositivos</h1>
+    <picture>
+        <source media="(max-width:560px )" srcset="imagens/pierpequeno.jpg" type="image/jpg">
+        <source media="(max-width:900px )" srcset="imagens/piermedio.jpg" type="image/jpg">
+        <img src="imagens/piergrande.jpg" alt="imggrande">
+    </picture>
+    <h2>reproduzindo áudio</h2>
+    <audio controls>
+        <source src="midia/audioexercicio.mp3" type="audio/mpeg">
+    </audio>  
+</body>
+</html>

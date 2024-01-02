@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    #externo{
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+        padding: 30px;
+    }
+    #interno{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        margin: 0px 0px -10px -10px;
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: black;
+    }
+    #container{
+        width: 300px;
+        height: 300px;
+        margin:300px auto auto auto;
+    }
+    </style>
+</head>
+<body>
+ 
+       <div id="container">
+           <div id="externo">
+            <div id="interno"></div>
+           </div>
+       </div>
+  
+</body>
+</html>

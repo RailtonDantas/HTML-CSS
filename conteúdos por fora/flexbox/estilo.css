@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-bottom: 10px;
+    align-content:center;
+}
+.square{
+    display:flex;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid black;
+    margin-left: 20px;
+
+
+
+}
+.square:nth-child(1){
+    order: 3;
+}
+.square:nth-child(2){
+    order: 6;
+}
+.square:nth-child(3){
+    order: 5;
+}
+.square:nth-child(4){
+    order: 4;
+}
+.square:nth-child(5){
+    order: 7;
+}
+.square:nth-child(6){
+    order: 2;
+}
+.square:nth-child(7){
+    order: 1;
+}
+.squareinterno{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+#two{
+    align-items: center;
+   justify-content: center;
+}

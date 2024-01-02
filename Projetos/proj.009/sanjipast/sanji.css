@@ -1,0 +1,200 @@
+@charset "UTF-8";
+*{
+   height: 100%;
+   margin: 0px;
+}
+@font-face {
+    font-family: "adventure";
+    src: url("../fonte/Adventure.otf") format("opentype");
+    font-weight:lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"bebas" ;
+    src: url("../fonte/Bebas-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"kenyan" ;
+    src: url("../fonte/kenyan coffee rg.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color:#293329;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom,#4D4600,#EBD700);
+}
+header>img{
+    width: 470px;
+    height: 260px;
+    border-radius: 8px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.568);
+}
+.img:nth-child(1){
+    margin-left: 10px;
+}
+.img:nth-child(3){
+    margin-right: 10px;
+}
+header>p{
+    font-family: "adventure";
+    font-size: 3em;
+    background-color: white;
+    color: #EBD700;
+    padding: 5px 18px 5px 8px;
+    height:auto;
+    align-self: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+div#historia{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px black;
+    padding: 10px;
+}
+.principal{
+    font-family: "adventure";
+    color: #EBD700;
+    background-color:#756C00;
+    height: auto;
+    font-size: 2em;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+    border-bottom:3px solid black;
+    margin:-10px -10px 0px -10px;
+    padding: 8px 0px;
+}
+main p{
+    font-family: "kenyan";
+    line-height: 25px;
+    text-align: justify;
+}
+#lutas{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height:310px;
+    margin-left: 10px;
+    margin-top: 11px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#lutas>.principal{
+    font-family: "adventure";
+    color: #EBD700;
+    background-color: #756C00;
+    height: auto;
+    font-size: 2em;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    text-align: center;
+    border-bottom:3px solid black;
+    margin:0px;
+    padding: 8px 0px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imglutas{
+    display: flex;
+    flex-direction: column;
+}
+.imglutas>img{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: 75px;
+}
+.plutas{
+     font-family: "bebas";
+     font-weight: normal;
+     color: #EBD700;
+     align-self: center;
+     background-color: #756C00;
+     border-radius: 5px;
+     border: 3px solid black;
+     height: auto;
+     margin-top: 5px;
+     width: 120px;
+     text-align: center;
+}
+.plutas:nth-child(2){
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.button{
+    font-family: "adventure";
+    align-self: center;
+    margin-top: 28px;
+    color: #EBD700;
+    background-color: #756C00;
+    height: auto;
+    padding:0px 3px 0px 3px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid black;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color: #EBD700;
+    color:#756C00;
+}
+.span2{
+    display: none;
+}
+.button:hover>.span1{
+    display: none;
+}
+.button:hover>.span2{
+    display: block;
+}
+.span2{
+    font-family: "adventure";
+    font-weight: normal;
+    margin-left: -3px;
+    margin-right: -3px;
+    line-height: 20px;
+}
+.span1{
+    font-family: "adventure";
+}
+a{
+    text-decoration: none;
+    color:#4D4600; ;
+}
+a:active{
+    color: blue;
+}
+#lutas>.container>.imglutas>.button{
+    transition-duration: 0.5s;
+}

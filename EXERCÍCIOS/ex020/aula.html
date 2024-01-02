@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(43, 255, 0);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited{
+            color:black;
+        }
+        a:hover{
+            color: rgb(43, 255, 0);
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+        div{
+            width: 50px;
+            height: 50px;
+            color: aqua;
+            background-color: aqua;
+        }
+        div:active{
+           background-color: deeppink;
+            width: 100px;
+            height: 100px;
+        }
+        a::after{
+            content: "{Isso é um link :)}";
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://ge.globo.com" target="_blank" >globo esporte</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel"target="_blank">adobe</a></li>
+        <li><a href="https://youtu.be/-kQ-nX8WUdw?si=Hr-_TahWpMWG01Cc"target="_blank">youtube do pedro loss</a></li>
+    </ul>
+    <div>
+a
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+div{
+    display: inline-block;
+}
+.imagem{
+    border: 5px solid black;
+}
+.imagem>p{
+    display: none;
+}
+.imagem:hover>img{
+    border: 10px solid red;
+    width: 400pxpx;
+    height: 300px;
+}
+.imagem:hover>p{
+    display: block;
+    font-family: "carro";
+}

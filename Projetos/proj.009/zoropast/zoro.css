@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "adventure";
+    src: url("../fonte/Adventure.otf") format("opentype");
+    font-weight:lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"bebas" ;
+    src: url("../fonte/Bebas-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"kenyan" ;
+    src: url("../fonte/kenyan coffee rg.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #293329;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#315232,#03B808);
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+header>img{
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 460px;
+    height: 260px;
+    align-self: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.61);
+}
+.image:nth-child(1){
+    margin-left: 0.5%;
+}
+.image:nth-child(3){
+    margin-right: 0.5%;
+}
+header p{
+    justify-content: center;
+    align-self: center;
+    font-family: "adventure" ;
+    margin: 0px;
+    font-size: 50px;
+    background-color: white;
+    color: #00EA06;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding:5px 12px 5px 7px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.815);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+#container1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    padding:10px 15px 0px 15px;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#container1>.principal{
+    font-family: "adventure";
+    color: #00EA06;
+    text-align: center;
+    margin:-10px -15px 0px -15px;
+    font-size: 2em;
+    background-color: #293329;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#container1>p{
+    font-family: "kenyan";
+    font-weight: lighter;
+    line-height: 27px;
+    text-align: justify;
+}
+#lutas{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+#lutas>p{
+    color: #00EA06;
+    font-family: "adventure";
+    font-size: 2em;
+    margin: 0px;
+    background-color: #293329;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom:2px solid black;
+}
+#lutas img{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: 75px;
+}
+#containerlutas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.plutas{
+    font-family: "bebas";
+    background-color: #293329;
+    color: #00EA06;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 80%;
+    align-self: center;
+}
+.button{
+    font-family: "adventure";
+    color: #00EA06;
+    background-color: #293329;
+    border:2px solid black;
+    width: 80%;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color: #00EA06;
+    color: black;
+}
+.button>.span2{
+    display: none;
+}
+.button:hover >.span1{
+    display: none;
+
+}
+.button:hover>.span2{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    color: aqua;
+}

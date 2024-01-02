@@ -1,0 +1,12 @@
+
+h2 > pre{
+    display:none;
+}
+h2:hover>pre{
+    display: block;
+    color:aqua;
+    
+}
+h2:hover{
+    color: red;
+}

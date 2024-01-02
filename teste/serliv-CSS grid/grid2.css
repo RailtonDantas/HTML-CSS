@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container>*{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    background-color: red;
+    width: 100px;
+    border: 2px solid black;
+    gap: 10px;
+}
+#container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 1fr 1fr;
+}
