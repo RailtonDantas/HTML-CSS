@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-duration: 0.5s;
+            margin-left: 10px;
+            margin-right: 10px;
+            transition-duration: 2s;
+            transform: rotateY(80deg);
+        }
+         .square:hover{
+               transform: rotateY(-180deg);
+         }
+    
+      #container{
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="square um">PARABENS</div>
+        <div class="square dois">PARABENS</div>
+        <div class="square tres">PARABENS</div>
+    </div>
+</body>
+</html>
