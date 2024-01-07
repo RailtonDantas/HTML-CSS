@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"honey" ;
+    src: url("../fontes/HoneyBlackDEMO.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"dreams" ;
+    src: url("../fontes/CaviarDreams.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imagens/header.jpg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px solid black;
+}
+header h1{
+    font-family: "honey";
+    font-size: 4em;
+    font-weight: lighter;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    font-variant: small-caps;
+}
+header p{
+    font-family: "dreams";
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    height: auto;
+}
+header a,footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 40px;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 30px;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+}
+section p{
+    margin-left: 20px;
+}
+.imagem >p{
+    background-color: black;
+    width: 500px;
+    padding-left: 5px;
+}
