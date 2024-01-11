@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 400px;
+            height: auto;
+            border-collapse: collapse;
+        }
+        td,th{
+            border:2px solid black;
+        }
+        td{
+            text-align: center;
+        }
+        #nome{
+            background-color: red;
+        }
+        #sexo{
+            background-color: #00ff00;
+        }
+        #idade{
+            background-color: #0000ff;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="nome">
+            <col id="sexo">
+            <col id="idade">
+            <col id="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td> Cláudia</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
