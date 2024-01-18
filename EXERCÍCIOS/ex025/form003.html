@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="get" action="cad.php" autocomplete="off">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" maxlength="50">
+        </p>
+        <p>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" min="1" max="122" required step="1" value="18">
+        </p>
+        <p>
+            <label for="ianiv">Aniversário</label>
+            <input type="date" name="aniv" id="ianiv">
+        </p>
+        <p>
+            <label for="itime">Hora</label>
+            <input type="time" name="hora" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+
+    </form>
+    
+</body>
+</html>
