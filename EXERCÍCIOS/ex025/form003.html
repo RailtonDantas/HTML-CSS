@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form method="get" action="cad.php" autocomplete="off">
+    <form method="post" action="cad.php" autocomplete="off">
         <p>
             <label for="inome">Nome</label>
             <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" maxlength="50">
@@ -23,6 +23,10 @@
         <p>
             <label for="itime">Hora</label>
             <input type="time" name="hora" id="itime">
+        </p>
+        <p>
+            <label for="ipass">Senha:</label>
+            <input type="password" name="senha" id="ipass" required>
         </p>
         <p>
             <input type="submit" value="Enviar">

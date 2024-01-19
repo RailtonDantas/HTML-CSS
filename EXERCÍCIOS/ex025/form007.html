@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cad.php" method="get">
+
+        <p>
+            <label for="est">Estado:</label>
+            <select name="estados" id="est" >
+                <optgroup label="Grupo 1">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Grupo 2">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Grupo 3">
+                    <option value="TO">Tocantins</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="profi">
+            <datalist id="profi">
+                   <optgroup label="ganha mal">
+                       <option>Físico</option>
+                       <option>Geólogo</option>
+                   </optgroup>
+                   <optgroup label="ganha bem">
+                       <option>Engenheiro</option>
+                       <option>Professor</option>
+                   </optgroup>
+                   <optgroup label="ganha bem">
+                       <option>Desenvolvedor</option>
+                       <option>Empacotador</option>
+                   </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <label for="mens">Mensagem:</label><br>
+            <textarea name="mensa" id="mens" cols="30" rows="10">digite</textarea>
+        </p>
+        <p>
+            <input type="reset" value="limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
