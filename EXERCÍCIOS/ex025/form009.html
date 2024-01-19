@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cad.php" method="get">
+        <p>
+            <label for="Nsatis">Satisfação:</label>
+            <input type="range" name="satis" id="Nsatis" max="10" min="0" value="5" oninput="tot.innerHTML = Number (Nsatis.value)">
+            <output id="tot">5</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
