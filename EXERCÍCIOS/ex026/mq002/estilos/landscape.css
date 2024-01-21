@@ -1,1 +1,10 @@
 @charset "UTF-8";
+
+/* configurações para telas deitadas */
+
+body{
+    background-image: url("../imagens/cev-landscape.jpg");
+}
+#deit{
+    display: block;
+}
