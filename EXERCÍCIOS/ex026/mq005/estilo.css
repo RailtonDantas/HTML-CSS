@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* config geral */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gray;
+    border-bottom: 2px solid black;
+    height: auto;
+}
+menu{
+    background-color: rgb(77, 77, 77);
+    display: none;
+}
+menu ul{
+    display: block;
+    list-style-type: none;
+}
+menu a{
+    display: block;
+    background-color: rgb(75, 75, 75);
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+    padding:10px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+menu a:hover{
+    background-color: rgb(167, 165, 165);
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 10px;
+    font-variant: small-caps;
+}
+#burguer{
+    display: block;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    padding: 5px;
+    color: white;
+    transition-duration: .5s;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
+    scale: 1.1;
+
+}
+main{
+    max-width: 700px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+}
+p{
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 20px;
+}
